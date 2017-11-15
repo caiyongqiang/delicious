@@ -16,13 +16,7 @@ export default {
     }
   },
   created(){
-    // ajaxFn:function(){
-      // 使用axios来请求数据
-      axios.get("mock/seller.json",{
-      }).then(function(res){
-        console.log(res);
-      });
-    // }
+    
   },
   components:{
   	'my-nav':Nav

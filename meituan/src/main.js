@@ -6,7 +6,7 @@ import router from './router'
 // 使用vuex
 import store from './store/index.js'
 // 使用mock模拟的假数据
-import './mock/find-list.json';
+// import './mock/find-list.json';
 
 Vue.config.productionTip = false
 
