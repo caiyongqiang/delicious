@@ -10,15 +10,13 @@ import local from './local.js';
 Vue.use(Vuex);
 
 let state = {
-  igbol:[false,true,true,true],
-  city:'广东省',
-  num:0
+  igbol:[false,true,true,true]
 }
 // 导出去
 export default new Vuex.Store({
   state,
   getters,
-  actions, 
+  actions,
   mutations,
   local
 });
