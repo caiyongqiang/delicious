@@ -86,25 +86,22 @@ export default {
 <style lang='stylus' scoped>
 @import "../assets/common/stylus/common.styl"
 .nav
-  width 100%
-  height pxtorem(101px)
-  padding-top pxtorem(15px)
-  position fixed
-  bottom 0
-  left 0
-  z-index 120
-  display flex
-  border-top pxtorem(1px) solid #ccc
-  background white
-  li:nth-child(2)
-    img
-      width pxtorem(60px)
-      height pxtorem(48px)
-
-  li
-    flex 1
-    text-align center
-    line-height 1.3
+	width 100%
+	height pxtorem(101px)
+	padding-top pxtorem(15px)
+	position fixed
+	bottom 0
+	left 0
+	display flex
+	border-top pxtorem(1px) solid #ccc
+	li:nth-child(2)
+		img
+			width pxtorem(60px)
+			height pxtorem(48px)
+	li
+		flex 1
+		text-align center
+		line-height 1.3
 
 	
 

@@ -3,8 +3,10 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 
 import Homepage from '@/components/Homepage/Homepage'
+import CityList from '../components/HomePage/CityList'
+import seach from '../components/HomePage/seach'
+import detail from '../components/HomePage/detail'
 import Find from '@/components/Find/Find'
-import Details from '@/components/Find/Details/Details'
 import Order from '@/components/Order/Order'
 import My from '@/components/My/My'
 
@@ -23,16 +25,24 @@ export default new Router({
       component: Find
     },
     {
-      path:'/details',
-      component:Details
-    },
-    {
       path: '/order',
       component: Order
     },
     {
       path: '/my',
       component: My
+    },
+    {
+      path: '/seach',
+      component: seach
+    },
+    {
+      path: '/city',
+      component: CityList
+    },
+    {
+      path: '/detail',
+      component: detail
     }
   ]
 })
